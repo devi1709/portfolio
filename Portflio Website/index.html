@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <!-- header -->
+        <div class="container" id="home">
+            <nav>
+                <h1>Portfolio</h1>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <main class="wrapper">
+            <section class="feabox">
+                <div class="text">
+                    <div class="card">
+                        <p>I'm Devi</p>
+                    </div>
+                    <!-- <div class="name">
+                        <p>Devi</p>
+                    </div> -->
+                    <div class="info">
+                        <p>Passionate frontend developer</p>
+                    </div>
+                    <div class="btn">
+                        <a href="image/deviresume.docs (4).docx" download class="btns">Download CV</a>
+                    </div>
+                    <div class="socialicons">
+                        <a href="https://github.com/devi1709"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/devi-siva-478b46243"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="images">
+                        <img src="image/image.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+          </main>    
+      
+       
+   
+    <section class="about" id="about">
+        <div class="container">
+            <h1 class="subtitle">About Me</h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/image.jpeg" class="logos">
+                </div>
+                <div class="about-col-2">
+                    <p>
+                       I am passionate frontend developer. I am a fresher to showcase my skills and enhance my experience.
+                       I  had completed my portfolio project with html,css,Javascript. In this project i used to navigation and  make an responsive website.
+                    </p>
+                    <div class="tabtitle">
+                        <p class="tablinks active-link " onclick="opentab('education')">Education</p>
+                        <p class="tablinks" onclick="opentab('certificate')">Certificate</p>
+                    </div>
+                    <div class="tabcontents active-tab" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BSC computer Science, SSAAS college at Kanchipuram</li>
+                            <li><span>2021</span><br>DR. Natrajan Matric School, Ranipet</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="certificate">
+                        <ul>
+                            <li><span>Python</span><br>CISCO</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section id="skills" class="skills">
+        <div class="maintext">
+            <h1>My Skills</h1>
+        </div>
+        <div class="skillsmain">
+            <div class="skillsleft">
+               <div class="skillsbar">
+                <div class="info">
+                    <p>HTML</p>
+                    <p>64%</p>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+               </div>
+               <div class="skillsbar">
+                <div class="info">
+                    <p>CSS</p>
+                    <p>62%</p>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+               </div>
+               <div class="skillsbar">
+                <div class="info">
+                    <p>Javascript</p>
+                    <p>61%</p>
+                </div>
+                <div class="bar">
+                    <span class="javascript"></span>
+                </div>
+               </div>
+               <div class="skillsbar">
+                <div class="info">
+                    <p>Bootstrap</p>
+                    <p>60%</p>
+                </div>
+                <div class="bar">
+                    <span class="bootstrap"></span>
+                </div>
+               </div>
+               <div class="skillsbar">
+                <div class="info">
+                    <p>React</p>
+                    <p>63%</p>
+                </div>
+                <div class="bar">
+                    <span class="react"></span>
+                </div>
+               </div>
+            </div>
+         
+        </div>
+    </section>
+    <section id="project" class="project">
+        <div class="container">
+            <h1 class="subtitle">My Project</h1>
+            <div class="worklist">
+             <div>
+                <h2>Menu Website</h2>
+                <p>In this website i had used filter to filter the button</p>
+                <a href="#">learn more</a>
+             </div>
+             <div>
+                <h2>Portfolio Website</h2>
+                <p>It is a responsive website to navigate all the pages.</p>
+                <a href="#">learn more</a>
+             </div>
+             <div>
+                <h2>Ecommerce Website</h2>
+                <p>In this project based on reactjs and API. </p>
+                <a href="#">learn more</a>
+             </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="subtitle">Contact Me</h1>
+            <div class="row">
+                <div class="contactleft">
+                    <p><i class="fas fa-paper-plane"></i>devisiva1709@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8122251224</p>
+                    <div class="socialicons">
+                        <a href="https://github.com/devi1709"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/devi-siva-478b46243"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="text" name="Email" placeholder="Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; All Copyrights are reserved.</p>
+        </div>
+    </section>
+    <a class="scroll-link top-link" href="#home">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="app.js"></script>
+</body>
+</html>
